@@ -1,0 +1,62 @@
+# Arduino-specific files
+*.ino
+*.pde
+
+# Build files
+build/
+
+# Sketches
+*.sketch
+
+# Build output
+*.elf
+*.bin
+*.hex
+*.eep
+
+# Temporary files
+*.tmp
+*.log
+*.ctags
+
+# Backup files
+*.bak
+*.swp
+*.swo
+*.swn
+*.swn
+*.swm
+*.swo
+*.swn
+*.swm
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Project files
+.vscode/
+.idea/
+*.code-workspace
+
+# Libraries
+libraries/
+*.lib
+
+# Other
+*.d
+*.su
+*.dd
+*.so
+*.a
+*.la
+*.lo
+*.rej
+*.orig
+*.rej
+*.un~
+*.o
+*.obj
+*.ko
+*.mod.c
+*.cmd
