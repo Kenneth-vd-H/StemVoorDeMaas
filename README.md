@@ -28,7 +28,3 @@ Deze branch richt zich op het meten en analyseren van de verzamelde data. Hierin
 
 We werken met een branch-per-feature workflow. Iedere bijdrager heeft een eigen branch voor zijn of haar werk. Volg de onderstaande stappen om bij te dragen aan dit project:
 
-1. **Fork de repository** naar je eigen GitHub account.
-2. **Clone** je fork naar je lokale machine:
-   ```sh
-   git clone https://github.com/<jouw-gebruikersnaam>/StemVoorDeMaas.git
