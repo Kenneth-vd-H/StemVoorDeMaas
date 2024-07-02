@@ -24,6 +24,10 @@ De `data-fetching` branch bevat de code voor het ophalen van data uit verschille
 
 Deze branch richt zich op het meten en analyseren van de verzamelde data. Hierin worden algoritmes en methoden ontwikkeld om de data te verwerken en inzichtelijke metingen te verkrijgen.
 
+### 4. Arduino Code (`data`)
+
+Deze branch bevat de Arduino Code om de sensoren te laten werken. De Library die benodigd is om de PH-sensor werkend te krijgen is "DFRobot_PH.h" Gevonden hier: [DFRobot_PH](https://github.com/DFRobot/DFRobot_PH/tree/master).
+
 ## Bijdragen
 
 We werken met een branch-per-feature workflow. Iedere bijdrager heeft een eigen branch voor zijn of haar werk. Volg de onderstaande stappen om bij te dragen aan dit project:
