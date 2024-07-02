@@ -26,7 +26,11 @@ Deze branch richt zich op het meten en analyseren van de verzamelde data. Hierin
 
 ### 4. Arduino Code (`data`)
 
-Deze branch bevat de Arduino Code om de sensoren te laten werken. De Library die benodigd zijn, staan hier ook.
+Deze branch bevat de Arduino Code om de sensoren te laten werken. De Library die benodigd zijn, staan hier gedeeltelijk ook. Sommige libraries hadden te veel files voor Github om te uploaden. Deze libraries zijn:
+*ArduinoJson
+*Firmata
+*Adafruit_Circuit_Playground
+*WaveHC
 
 ## Bijdragen
 
