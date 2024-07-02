@@ -26,7 +26,7 @@ Deze branch richt zich op het meten en analyseren van de verzamelde data. Hierin
 
 ### 4. Arduino Code (`data`)
 
-Deze branch bevat de Arduino Code om de sensoren te laten werken. De Library die benodigd is om de PH-sensor werkend te krijgen is "DFRobot_PH.h" Gevonden hier: [DFRobot_PH](https://github.com/DFRobot/DFRobot_PH/tree/master).
+Deze branch bevat de Arduino Code om de sensoren te laten werken. De Library die benodigd zijn, staan hier ook.
 
 ## Bijdragen
 
