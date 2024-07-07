@@ -1,0 +1,17 @@
+apiVersion: 1
+datasources:
+  - name: InfluxDB
+    type: influxdb
+    access: proxy
+    database: db0
+    user: decent8500
+    password: 9JTPVaZy1H
+    url: http://influxdb:8086
+    isDefault: true
+    editable: true
+    jsonData:
+      httpMode: POST
+      organization: StemAanDeMaas
+      defaultBucket: db0
+    secureJsonData:
+      token: "${INFLUXDB_TOKEN}"
