@@ -8,13 +8,13 @@ from paho import mqtt
 class MqttConnection:
     # Test callbacks
 
-    def __init__(self, client_id, broker, port, username, pwd, topic, qos=1):
+    def __init__(self, client_id, broker, port, username, pwd, qos=1):
+        #initialize broker credentials
         self.client = paho.Client(client_id=client_id, protocol=paho.MQTTv5)
         self.broker = broker
         self.port = port
         self.username = username
         self.password = pwd
-        self.topic = topic
         self.qos = qos
 
 
@@ -44,14 +44,16 @@ class MqttConnection:
 
 
     #Method definitions
+    #Set connection to MQTT broker
     def connect(self):
         self.client.connect(self.broker, self.port)
         self.client.loop_start()
 
-    def publish(self, payload):
-        self.client.publish(self.topic, payload=payload, qos=self.qos)
+    #Publish data to MQTT broker
+    def publish(self, topic, payload):
+        self.client.publish(topic=topic, payload=payload, qos=self.qos)
 
-
+    #Disconnect from MQTT broker
     def disconnect(self):
         self.client.loop_stop()
         self.client.disconnect()

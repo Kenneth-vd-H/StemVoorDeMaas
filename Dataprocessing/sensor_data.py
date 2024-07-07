@@ -1,4 +1,3 @@
-
 class Sensor:
     hardware_connection = False
 
@@ -6,10 +5,8 @@ class Sensor:
         self.name = name
         self.value = None
 
-    @staticmethod
-    def check_hardware_connection():
-        Sensor.hardware_connection = True
-        return Sensor.hardware_connection
+    def get_name(self):
+        return self.name
 
     def set_reading(self, value):
         self.value = value
